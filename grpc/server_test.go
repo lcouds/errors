@@ -3,8 +3,8 @@ package grpc
 import (
 	"context"
 
-	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/errors/grpc/status"
+	"github.com/lcouds/errors"
+	"github.com/lcouds/errors/grpc/status"
 
 	"google.golang.org/grpc/codes"
 )

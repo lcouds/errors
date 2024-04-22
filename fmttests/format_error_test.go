@@ -24,11 +24,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/errutil"
-	"github.com/cockroachdb/errors/testutils"
 	"github.com/cockroachdb/redact"
 	"github.com/gogo/protobuf/proto"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/errutil"
+	"github.com/lcouds/errors/testutils"
 	pkgErr "github.com/pkg/errors"
 )
 

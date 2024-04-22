@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/issuelink"
-	"github.com/cockroachdb/errors/markers"
-	"github.com/cockroachdb/errors/testutils"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/issuelink"
+	"github.com/lcouds/errors/markers"
+	"github.com/lcouds/errors/testutils"
 	"github.com/pkg/errors"
 )
 

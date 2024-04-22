@@ -18,8 +18,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cockroachdb/errors/safedetails"
 	"github.com/cockroachdb/redact"
+	"github.com/lcouds/errors/safedetails"
 )
 
 func TestJoin(t *testing.T) {

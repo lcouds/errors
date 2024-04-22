@@ -15,10 +15,10 @@
 package errutil
 
 import (
-	"github.com/cockroachdb/errors/join"
-	"github.com/cockroachdb/errors/secondary"
-	"github.com/cockroachdb/errors/withstack"
 	"github.com/cockroachdb/redact"
+	"github.com/lcouds/errors/join"
+	"github.com/lcouds/errors/secondary"
+	"github.com/lcouds/errors/withstack"
 )
 
 // New creates an error with a simple error message.

@@ -21,14 +21,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cockroachdb/errors/domains"
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/report"
-	"github.com/cockroachdb/errors/safedetails"
-	"github.com/cockroachdb/errors/testutils"
-	"github.com/cockroachdb/errors/withstack"
 	sentry "github.com/getsentry/sentry-go"
 	"github.com/kr/pretty"
+	"github.com/lcouds/errors/domains"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/report"
+	"github.com/lcouds/errors/safedetails"
+	"github.com/lcouds/errors/testutils"
+	"github.com/lcouds/errors/withstack"
 )
 
 // func TestReport2(t *testing.T) {

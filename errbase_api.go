@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cockroachdb/errors/errbase"
+	"github.com/lcouds/errors/errbase"
 )
 
 // UnwrapOnce accesses the direct cause of the error if any, otherwise

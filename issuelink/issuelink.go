@@ -17,8 +17,8 @@ package issuelink
 import (
 	"fmt"
 
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/markers"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/markers"
 )
 
 // WithIssueLink adds an annotation to a know issue

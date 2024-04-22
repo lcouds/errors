@@ -21,9 +21,9 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/markers"
 	"github.com/cockroachdb/redact"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/markers"
 )
 
 func init() {

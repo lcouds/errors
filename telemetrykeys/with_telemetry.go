@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cockroachdb/errors/errbase"
 	"github.com/cockroachdb/redact"
 	"github.com/gogo/protobuf/proto"
+	"github.com/lcouds/errors/errbase"
 )
 
 type withTelemetry struct {

@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/errorspb"
 	"github.com/cockroachdb/redact"
 	"github.com/gogo/protobuf/proto"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/errorspb"
 )
 
 // Is determines whether one of the causes of the given error or any

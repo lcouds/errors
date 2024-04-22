@@ -19,10 +19,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/stdstrings"
 	"github.com/cockroachdb/redact"
 	"github.com/gogo/protobuf/proto"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/stdstrings"
 )
 
 type withIssueLink struct {

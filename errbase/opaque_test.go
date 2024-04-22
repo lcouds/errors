@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cockroachdb/errors/testutils"
 	"github.com/kr/pretty"
+	"github.com/lcouds/errors/testutils"
 )
 
 func TestUnknownWrapperTraversalWithMessageOverride(t *testing.T) {

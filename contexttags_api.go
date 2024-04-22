@@ -17,8 +17,8 @@ package errors
 import (
 	"context"
 
-	"github.com/cockroachdb/errors/contexttags"
 	"github.com/cockroachdb/logtags"
+	"github.com/lcouds/errors/contexttags"
 )
 
 // WithContextTags captures the k/v pairs stored in the context via the

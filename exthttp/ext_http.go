@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/markers"
 	"github.com/gogo/protobuf/proto"
+	"github.com/lcouds/errors"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/markers"
 )
 
 // This file demonstrates how to add a wrapper type not otherwise

@@ -18,9 +18,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cockroachdb/errors/errbase"
 	"github.com/cockroachdb/redact"
 	"github.com/gogo/protobuf/proto"
+	"github.com/lcouds/errors/errbase"
 )
 
 // Join returns an error that wraps the given errors.

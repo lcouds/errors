@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/errutil"
-	"github.com/cockroachdb/errors/testutils"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/errutil"
+	"github.com/lcouds/errors/testutils"
 )
 
 // TestFormat checks edge cases of the utilities in this package.

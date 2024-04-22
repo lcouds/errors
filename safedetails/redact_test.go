@@ -23,9 +23,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/cockroachdb/errors/safedetails"
-	"github.com/cockroachdb/errors/testutils"
 	"github.com/cockroachdb/redact"
+	"github.com/lcouds/errors/safedetails"
+	"github.com/lcouds/errors/testutils"
 )
 
 func TestRedact(t *testing.T) {
@@ -115,7 +115,8 @@ func TestRedact(t *testing.T) {
 var fileref = regexp.MustCompile(`([a-zA-Z0-9\._/@-]*\.(?:go|s):\d+)`)
 
 // makeTypeAssertionErr returns a runtime.Error with the message:
-//     interface conversion: interface {} is nil, not int
+//
+//	interface conversion: interface {} is nil, not int
 func makeTypeAssertionErr() (result runtime.Error) {
 	defer func() {
 		e := recover()

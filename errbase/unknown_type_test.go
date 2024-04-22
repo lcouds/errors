@@ -22,11 +22,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/errbase/internal"
-	"github.com/cockroachdb/errors/testutils"
 	"github.com/gogo/protobuf/proto"
 	"github.com/kr/pretty"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/errbase/internal"
+	"github.com/lcouds/errors/testutils"
 )
 
 // These tests demonstrate how the library makes a best effort at

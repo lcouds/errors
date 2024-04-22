@@ -23,10 +23,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cockroachdb/errors/errbase"
-	"github.com/cockroachdb/errors/errorspb"
-	"github.com/cockroachdb/errors/testutils"
 	"github.com/kr/pretty"
+	"github.com/lcouds/errors/errbase"
+	"github.com/lcouds/errors/errorspb"
+	"github.com/lcouds/errors/testutils"
 	pkgErr "github.com/pkg/errors"
 )
 
